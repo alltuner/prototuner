@@ -9,7 +9,7 @@ dependencies = [
     "asyncer>=0.0.8",
     "authlib>=1.5.2",
     "beanie[zstd]>=1.30.0",
-    "boto3>=1.39.0",
+    "boto3>=1.39.1",
     # Fixme, remove click's dep when the stderr error is fixed
     "click~=8.1.0",
     "email-validator>=2.2.0",
@@ -33,7 +33,7 @@ dependencies = [
 dev = [
     # These are the development dependencies of AllTuner's blessed stack
     "babel>=2.17.0",
-    "boto3-stubs[ses]>=1.39.0",
+    "boto3-stubs[ses]>=1.39.1",
     "cloudflare>=4.3.1",
     "djlint>=1.36.4",
     "mypy>=1.16.1",
