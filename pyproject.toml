@@ -13,7 +13,7 @@ dependencies = [
     # Fixme, remove click's dep when the stderr error is fixed
     "click~=8.1.0",
     "email-validator>=2.2.0",
-    "fastapi[standard]>=0.115.14",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.116.0",
     "itsdangerous>=2.2.0",
     "loguru>=0.7.3",
     "pydantic[email]>=2.11.7",
@@ -39,6 +39,6 @@ dev = [
     "mypy>=1.16.1",
     "ruff>=0.12.2",
     "ty>=0.0.1a13",
-    "types-authlib>=1.6.0.20250705",
+    "types-authlib>=1.6.0.20250708",
     "types-pyyaml>=6.0.12.20250516",
 ]
