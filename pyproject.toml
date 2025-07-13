@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.1.5"
+version = "0.1.6"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -13,7 +13,7 @@ dependencies = [
     # Fixme, remove click's dep when the stderr error is fixed
     "click~=8.1.0",
     "email-validator>=2.2.0",
-    "fastapi[standard-no-fastapi-cloud-cli]>=0.116.0",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.116.1",
     "itsdangerous>=2.2.0",
     "loguru>=0.7.3",
     "pydantic[email]>=2.11.7",
@@ -36,9 +36,9 @@ dev = [
     "cloudflare>=4.3.1",
     "djlint>=1.36.4",
     "mypy>=1.16.1",
-    "ruff>=0.12.2",
+    "ruff>=0.12.3",
     "ty>=0.0.1a14",
     "types-aioboto3[s3,ses]>=15.0.0",
-    "types-authlib>=1.6.0.20250708",
+    "types-authlib>=1.6.0.20250711",
     "types-pyyaml>=6.0.12.20250516",
 ]
