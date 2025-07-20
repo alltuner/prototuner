@@ -1,17 +1,17 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.1.8"
+version = "0.1.9"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
     "aioboto3>=15.0.0",
     "arel>=0.3.0",
     "asyncer>=0.0.8",
-    "authlib>=1.6.0",
+    "authlib>=1.6.1",
     "beanie[zstd]>=1.30.0,<2.0.0",
     # Fixme, remove click's dep when the stderr error is fixed
-    "click>=8.1.8",
+    "click~=8.1.8",
     "email-validator>=2.2.0",
     "fastapi[standard-no-fastapi-cloud-cli]>=0.116.1",
     "itsdangerous>=2.2.0",
