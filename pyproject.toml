@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.1.18"
+version = "0.1.19"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -34,9 +34,9 @@ dev = [
     "babel>=2.17.0",
     "cloudflare>=4.3.1",
     "djlint>=1.36.4",
-    "ruff>=0.12.9",
+    "ruff>=0.12.10",
     "ty>=0.0.1a19",
     "types-aioboto3[s3,ses]>=15.1.0",
     "types-authlib>=1.6.0.20250809",
-    "types-pyyaml>=6.0.12.20250809",
+    "types-pyyaml>=6.0.12.20250822",
 ]
