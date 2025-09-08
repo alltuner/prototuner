@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.1.27"
+version = "0.1.28"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -26,7 +26,7 @@ dependencies = [
     "starlette-babel>=1.0.3",
     "starlette-compress>=1.6.1",
     "starlette-htmx>=0.1.1",
-    "typer-slim[standard]>=0.17.3",
+    "typer-slim[standard]>=0.17.4",
 ]
 
 [project.optional-dependencies]
