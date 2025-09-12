@@ -28,7 +28,7 @@ dependencies = [
     "starlette-htmx>=0.1.1",
     "typer-slim[standard]>=0.17.4",
     # FIXME: there is a bug in pymongo https://jira.mongodb.org/browse/PYTHON-5543
-    "pymongo<4.15.0",
+    "pymongo<4.15.1",
 ]
 
 [project.optional-dependencies]
