@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.1.33"
+version = "0.2.0"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -22,10 +22,10 @@ dependencies = [
     "pyyaml>=6.0.2",
     "redis[hiredis]>=6.4.0",
     "rich>=14.1.0",
-    "streaq>=0.2.1",
     "starlette-babel>=1.0.3",
     "starlette-compress>=1.6.1",
     "starlette-htmx>=0.1.1",
+    "streaq>=5.2.2",
     "typer-slim[standard]>=0.17.4",
 ]
 
@@ -43,6 +43,9 @@ dev = [
 ]
 
 [dependency-groups]
-dev = [
-    "djlint>=1.36.4",
-]
+dev = ["djlint>=1.36.4"]
+
+[[tool.uv.dependency-metadata]]
+name = "arel"
+version = "0.3.0"
+requires-dist = ["watchfiles>=1.1.0"]
