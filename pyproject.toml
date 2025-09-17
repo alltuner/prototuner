@@ -45,7 +45,9 @@ dev = [
 [dependency-groups]
 dev = ["djlint>=1.36.4"]
 
-[[tool.uv.dependency-metadata]]
-name = "arel"
-version = "0.3.0"
-requires-dist = ["watchfiles>=1.1.0"]
+[tool.uv]
+dependency-metadata = [
+    # This is a temporary fix to ensure Arel doesn't hold back wathcfiles,
+    # which holds back StreaQ. We should PR upstream to fix this properly.
+    { name = "arel", version = "0.3.0", requires-dist = ["watchfiles>=1.1.0"] },
+]
