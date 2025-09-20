@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.2.3"
+version = "0.2.4"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -26,7 +26,7 @@ dependencies = [
     "starlette-compress>=1.6.1",
     "starlette-htmx>=0.1.1",
     "streaq[web]>=5.2.2",
-    "typer-slim[standard]>=0.17.4",
+    "typer-slim[standard]>=0.19.1",
 ]
 
 [project.optional-dependencies]
@@ -38,7 +38,7 @@ dev = [
     "ruff>=0.13.1",
     "ty>=0.0.1a21",
     "types-aioboto3[s3,ses]>=15.1.0",
-    "types-authlib>=1.6.4.20250919",
+    "types-authlib>=1.6.4.20250920",
     "types-pyyaml>=6.0.12.20250915",
 ]
 
