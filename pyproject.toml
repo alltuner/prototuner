@@ -46,4 +46,4 @@ dev = [
 dev = ["djlint>=1.36.4"]
 
 [tool.uv.sources]
-arel = { git = "https://github.com/davidpoblador/arel", branch = "master" }
+arel = { git = "https://github.com/florimondmanca/arel", branch = "master" }
