@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.2.4"
+version = "0.2.5"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -12,7 +12,7 @@ dependencies = [
     "beanie[zstd]>=2.0.0",
     "click>=8.3.0",
     "email-validator>=2.3.0",
-    "fastapi[standard-no-fastapi-cloud-cli]>=0.116.2",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.117.1",
     "httpx[http2]>=0.28.1",
     "itsdangerous>=2.2.0",
     "loguru>=0.7.3",
