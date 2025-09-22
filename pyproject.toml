@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.2.6"
+version = "0.2.7"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
