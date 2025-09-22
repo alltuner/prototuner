@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.2.5"
+version = "0.2.6"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -45,9 +45,5 @@ dev = [
 [dependency-groups]
 dev = ["djlint>=1.36.4"]
 
-[tool.uv]
-dependency-metadata = [
-    # This is a temporary fix to ensure Arel doesn't hold back wathcfiles,
-    # which holds back StreaQ. We should PR upstream to fix this properly.
-    { name = "arel", version = "0.3.0", requires-dist = ["watchfiles>=1.1.0"] },
-]
+[tool.uv.sources]
+arel = { git = "https://github.com/davidpoblador/arel", branch = "master" }
