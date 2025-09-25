@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.3.1"
+version = "0.3.2"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -26,7 +26,7 @@ dependencies = [
     "starlette-babel>=1.0.3",
     "starlette-compress>=1.6.1",
     "starlette-htmx>=0.1.1",
-    "streaq[web]>=6.0.0",
+    "streaq[web]<6.0.0",
     "typer-slim[standard]>=0.19.2",
 ]
 
@@ -35,6 +35,7 @@ dev = [
     # These are the development dependencies of AllTuner's blessed stack
     "babel>=2.17.0",
     "cloudflare>=4.3.1",
+    "copier>=9.0.0,<9.9.1",
     "djlint>=1.36.4",
     "dunamai>=1.25.0",
     "gh-bin>=2.78.0",
