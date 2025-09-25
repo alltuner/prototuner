@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.2.10"
+version = "0.2.11"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -18,7 +18,7 @@ dependencies = [
     "loguru>=0.7.3",
     "pydantic[email]>=2.11.9",
     "pydantic-extra-types[pycountry]>=2.10.5",
-    "pydantic-settings>=2.10.1",
+    "pydantic-settings>=2.11.0",
     "pyyaml>=6.0.2",
     "redis[hiredis]>=6.4.0",
     "rich>=14.1.0",
@@ -41,7 +41,5 @@ dev = [
     "types-aioboto3[s3,ses]>=15.1.0",
     "types-authlib>=1.6.4.20250920",
     "types-pyyaml>=6.0.12.20250915",
+    "uv-bump>=0.3.0",
 ]
-
-[dependency-groups]
-dev = ["djlint>=1.36.4"]
