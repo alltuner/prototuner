@@ -26,7 +26,7 @@ dependencies = [
     "starlette-babel>=1.0.3",
     "starlette-compress>=1.6.1",
     "starlette-htmx>=0.1.1",
-    "streaq[web]<6.0.0",
+    "streaq[web]<6.0.1",
     "typer-slim[standard]>=0.19.2",
 ]
 
