@@ -52,6 +52,4 @@ dev = [
 ]
 
 [dependency-groups]
-dev = [
-    "uv-bump>=0.3.0",
-]
+dev = ["uv-bump>=0.3.0"]
