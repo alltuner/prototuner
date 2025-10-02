@@ -1,13 +1,13 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "0.3.4"
+version = "0.3.5"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
     "aioboto3>=15.1.0",
     "arel>=0.4.0",
-    "asyncer>=0.0.8",
+    "asyncer>=0.0.9",
     "authlib>=1.6.4",
     "beanie[zstd]>=2.0.0",
     "click>=8.3.0",
