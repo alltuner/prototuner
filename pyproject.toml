@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "1.0.4"
+version = "1.0.5"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -55,4 +55,10 @@ dev = [
 dev = [
     "just-bin>=1.42.4",
     "uv-bump>=0.3.1",
+]
+
+[tool.uv]
+# FIXME: Remove this override once https://github.com/MagicStack/uvloop/pull/XXX is merged and released
+override-dependencies = [
+    "uvloop @ git+https://github.com/davidpoblador/uvloop.git",
 ]
