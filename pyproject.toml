@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "1.0.9"
+version = "1.0.10"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -12,7 +12,7 @@ dependencies = [
     "beanie[zstd]>=2.0.0",
     "click>=8.3.0",
     "email-validator>=2.3.0",
-    "fastapi[standard-no-fastapi-cloud-cli]>=0.118.2",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.119.0",
     "httpx[http2]>=0.28.1",
     "itsdangerous>=2.2.0",
     "loguru>=0.7.3",
@@ -38,13 +38,13 @@ dev = [
     "copier>=9.9.0,<9.9.1",
     "djlint>=1.36.4",
     "dunamai>=1.25.0",
-    "gh-bin>=2.78.0",
-    "just-bin>=1.42.4",
+    "gh-bin>=2.81.0",
+    "just-bin>=1.43.0",
     "pre-commit>=4.3.0",
     "python-dotenv[cli]>=1.1.1",
     "ruff>=0.14.0",
     "semver>=3.0.4",
-    "ty>=0.0.1a21",
+    "ty>=0.0.1a22",
     "types-aioboto3[s3,ses]>=15.2.0",
     "types-authlib>=1.6.5.20251005",
     "types-pyyaml>=6.0.12.20250915",
@@ -53,6 +53,6 @@ dev = [
 
 [dependency-groups]
 dev = [
-    "just-bin>=1.42.4",
+    "just-bin>=1.43.0",
     "uv-bump>=0.3.1",
 ]
