@@ -1,17 +1,16 @@
 {
   "name": "prototuner",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "AllTuner's blessed JavaScript/frontend build dependencies",
   "dependencies": {
     "tailwindcss": "^4.1.14",
     "@tailwindcss/cli": "^4.1.14",
     "@tailwindcss/typography": "^0.5.19",
-    "daisyui": "^5.1.30",
+    "daisyui": "^5.2.3",
     "htmx.org": "2.0.7",
     "htmx-ext-preload": "^2.1.1",
     "htmx-ext-sse": "^2.2.3",
-    "concurrently": "^9.2.1",
-    "markdownlint-cli": "^0.45.0"
+    "concurrently": "^9.2.1"
   },
   "repository": {
     "type": "git",
