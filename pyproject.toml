@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "1.0.12"
+version = "1.0.13"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -45,6 +45,7 @@ dev = [
     "ruff>=0.14.0",
     "rumdl>=0.0.156",
     "semver>=3.0.4",
+    "taplo>=0.9.3",
     "ty>=0.0.1a22",
     "types-aioboto3[s3,ses]>=15.2.0",
     "types-authlib>=1.6.5.20251005",
