@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "1.1.5"
+version = "1.1.6"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -17,7 +17,7 @@ dependencies = [
     "httpx[http2]>=0.28.1",
     "itsdangerous>=2.2.0",
     "loguru>=0.7.3",
-    "pydantic[email]>=2.12.2",
+    "pydantic[email]>=2.12.3",
     "pydantic-extra-types[pycountry]>=2.10.6",
     "pydantic-settings>=2.11.0",
     "pyyaml>=6.0.3",
