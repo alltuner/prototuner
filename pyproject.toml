@@ -1,11 +1,11 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "1.1.6"
+version = "1.1.7"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
-    "aioboto3>=15.2.0",
+    "aioboto3>=15.4.0",
     "arel>=0.4.0",
     "asyncer>=0.0.9",
     "authlib>=1.6.5",
@@ -47,7 +47,7 @@ dev = [
     "semver>=3.0.4",
     "taplo>=0.9.3",
     "ty>=0.0.1a23",
-    "types-aioboto3[s3,ses]>=15.2.0",
+    "types-aioboto3[s3,ses]>=15.4.0",
     "types-authlib>=1.6.5.20251005",
     "types-pyyaml>=6.0.12.20250915",
     "uv-bump>=0.3.1",
