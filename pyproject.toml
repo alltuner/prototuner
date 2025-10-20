@@ -1,18 +1,18 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "1.1.7"
+version = "1.1.8"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
     "aioboto3>=15.4.0",
     "arel>=0.4.0",
-    "asyncer>=0.0.9",
+    "asyncer>=0.0.10",
     "authlib>=1.6.5",
     "beanie[zstd]>=2.0.0",
     "click>=8.3.0",
     "email-validator>=2.3.0",
-    "fastapi[standard-no-fastapi-cloud-cli]>=0.119.0",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.119.1",
     "granian[pname]>=2.5.5",
     "httpx[http2]>=0.28.1",
     "itsdangerous>=2.2.0",
@@ -27,7 +27,7 @@ dependencies = [
     "starlette-babel>=1.0.3",
     "starlette-htmx>=0.1.1",
     "streaq[web]<6.0.0",
-    "typer-slim[standard]>=0.19.2",
+    "typer-slim[standard]>=0.20.0",
 ]
 
 [project.optional-dependencies]
