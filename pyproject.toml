@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "1.1.8"
+version = "1.1.9"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -43,7 +43,7 @@ dev = [
     "just-bin>=1.43.0",
     "pre-commit>=4.3.0",
     "ruff>=0.14.1",
-    "rumdl>=0.0.162",
+    "rumdl>=0.0.164",
     "semver>=3.0.4",
     "taplo>=0.9.3",
     "ty>=0.0.1a23",
