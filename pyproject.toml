@@ -1,7 +1,7 @@
 [project]
 name = "prototuner"
 description = "A set of good deps I keep using in AllTuner projects"
-version = "1.1.12"
+version = "1.1.13"
 requires-python = ">=3.10"
 dependencies = [
     # These are the base dependencies of AllTuner's blessed stack
@@ -12,8 +12,8 @@ dependencies = [
     "beanie[zstd]>=2.0.0",
     "click>=8.3.0",
     "email-validator>=2.3.0",
-    "fastapi[standard-no-fastapi-cloud-cli]>=0.120.1",
-    "granian[pname]>=2.5.5",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.120.2",
+    "granian[pname]>=2.5.6",
     "httpx[http2]>=0.28.1",
     "itsdangerous>=2.2.0",
     "loguru>=0.7.3",
@@ -39,14 +39,14 @@ dev = [
     "djlint>=1.36.4",
     "dunamai>=1.25.0",
     "gh-bin>=2.81.0",
-    "granian[pname,reload]>=2.5.5",
+    "granian[pname,reload]>=2.5.6",
     "just-bin>=1.43.0",
     "pre-commit>=4.3.0",
     "ruff>=0.14.2",
-    "rumdl>=0.0.167",
+    "rumdl>=0.0.168",
     "semver>=3.0.4",
     "taplo>=0.9.3",
-    "ty>=0.0.1a24",
+    "ty>=0.0.1a25",
     "types-aioboto3[s3,ses]>=15.4.0",
     "types-authlib>=1.6.5.20251005",
     "types-pyyaml>=6.0.12.20250915",
